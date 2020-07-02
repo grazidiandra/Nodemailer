@@ -1,0 +1,8 @@
+<h2>Olá <b>{{username}}</b></h2>
+<h2> Seu status atual é: {{status}}</h2>
+
+<img src="{{ this.path }}" alt="{{ this.originalName }}" />
+
+  {{#if err }}
+    <div class="error-message">{{ err }}</div>
+  {{/if}}
